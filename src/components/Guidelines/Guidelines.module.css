@@ -1,0 +1,43 @@
+/* Colors used */
+
+:root{
+    --text-Color:whitesmoke;
+    
+    --background-Color:#5162ce;
+}
+
+
+.guidelinesContainer
+{
+    height:90vh;
+    /* 100vh-8vh (of navbar) */
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    color: var(--text-Color);
+}
+.guidelinesRight
+{
+
+    width: 55%;
+    display: flex;
+    align-items: center;
+}
+.guidelinesRight ol{
+    font-size: 20px;
+    font-weight:400;
+    line-height: 35px;
+
+}
+.guidelinesLeft h1{
+    font-size: 100px;
+    font-weight: 700;
+    text-align: right;
+    line-height:100px;
+
+}
+.guidelinesLeft
+{
+    margin-top: 25px;
+    width: 35%;
+}

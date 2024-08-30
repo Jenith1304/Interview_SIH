@@ -1,0 +1,76 @@
+/* Colors used */
+
+:root{
+    --text-Color:whitesmoke;
+    
+    --background-Color:#5162ce;
+}
+.contactContainer
+{
+    height:90vh;
+    /* 100vh-8vh (of navbar) */
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--text-Color);
+}
+.contactLeft
+{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
+.contactLeft h1{
+    text-align: center;
+    font-size: 70px;
+    font-weight: 700;
+    margin:15px;
+}
+.contactLeft p{
+    font-size: 25px;
+}
+
+.contactRight
+{
+    
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    
+}
+.contactRight form{
+    display: flex;
+    flex-direction: column;
+    margin:15px;
+    width:80%;
+    font-size: 25px;
+}
+.contactRight form input
+{
+    height:45px;
+    font-size: 25px;
+    padding: 5px;
+    border: 1px solid grey;
+    border-radius: 5px;
+}
+.contactRight form label{
+    margin-top: 15px;;
+}
+
+.contactRight form textarea{
+    font-size: 25px;
+    padding: 5px;
+    border: 1px solid grey;
+    border-radius: 5px;
+}
+.contactRight form button{
+    background-color: #5162ce;
+    border: 1px solid  whitesmoke ;
+    border-radius: 5px;
+    color: whitesmoke;
+    height: 45px;
+    width:25%;
+    margin-top: 15px;
+    cursor: pointer;
+}

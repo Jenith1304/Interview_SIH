@@ -1,0 +1,154 @@
+/* Colors used */
+
+:root{
+    --text-Color:whitesmoke;
+    
+    --background-Color:#5162ce;
+}
+
+
+.profileContainer
+{
+    color: var(--text-Color);
+    /* border: 1px solid red; */
+    height: 100%;
+    display: flex;
+    gap:50px;
+    justify-content: center;
+    margin-left: 20%;
+    margin-top: 25px;
+    /* margin-right: 5%; */
+}
+.profileDetails
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    height: 300px;
+    border: 1px solid var(--text-Color);
+    border-radius: 5px;
+}
+
+
+.profilePic img
+{
+    width: 125px;
+    height: 125px;
+    border: 1px solid var(--text-Color);
+    border-radius: 50%;
+}
+
+.profileSocials
+{
+    width: 300px;
+    /* height: 150px; */
+    border: 1px solid var(--text-Color);
+    border-radius: 5px;
+    display:flex;
+    align-items: center;
+    margin-top: 15px;
+   
+}
+.profileSocials ul 
+{width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:20px;
+}
+.profileSocials ul li{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+list-style: none;
+font-size: 15px;
+border-bottom: 1px solid grey;
+padding:7px;
+}
+.profileInfo
+{
+    height: 350px;
+    width: 700px;
+    border: 1px solid var(--text-Color);
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: center;
+}
+.profileInfo ul 
+{width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:30px;
+}
+.profileInfo ul li{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+list-style: none;
+font-size: 18px;
+border-bottom: 1px solid grey;
+padding:10px;
+}
+
+.profileInfo button{
+    width:75px;
+    height: 50px;
+    font-size: 15px;
+    background-color: var(--text-Color);
+    color: var(--background-Color);
+    border: 1px solid var(--background-Color);
+    border-radius: 10px;
+    margin-top: 15px;
+    margin-left:10px ;
+}
+
+.skillsContainer
+{
+    height:375px;
+    width:700px;
+    /* border: 1px solid var(--text-Color); */
+    border-radius: 5px;
+    display: flex;
+    gap:15px;
+    margin-top: 20px;
+}
+.skills,.projects
+{
+    height:300px;
+    width:350px;
+    border: 1px solid var(--text-Color);
+    border-radius: 5px;
+}
+.skills div,.projects div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    /* border: 1px solid yellow; */
+}
+.skills div progress
+{
+    width:80%;
+}
+
+
+/* interviewer css */
+.interviewsTaken{
+    width:600px;
+    height:300px;
+    border: 1px solid var(--text-Color);
+    border-radius: 5px;
+}
+.interviewsTaken div{
+    display: flex;
+    /* flex-direction: column; */
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+    padding:15px;
+}

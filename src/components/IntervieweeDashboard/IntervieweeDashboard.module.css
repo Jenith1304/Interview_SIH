@@ -1,0 +1,59 @@
+/* Colors used */
+
+:root{
+    --text-Color:whitesmoke;
+    
+    --background-Color:#5162ce;
+}
+
+.intervieweeContainer
+{
+    height: 90vh;
+    display: flex;
+
+}
+
+/* left side navgation of dashboard */
+.interVieweeDashboardnavigation{
+    /* border: 1px solid var(--text-Color); */
+    border-right: 1px solid var(--text-Color);
+    color:var(--text-Color);
+    height: 100%;
+    min-width:250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* gap:25px; */
+}
+.interVieweeDashboardnavigation ul{
+    display: flex;
+    gap:25px;
+    flex-direction: column;
+    list-style: none;
+    font-size: 18px;
+    margin-top: 25px;
+}
+.interVieweeDashboardnavigation ul li{
+    display: flex;
+   align-items: center;
+    transition: 0.5s all ease;
+    padding: 1vw;
+
+}
+.interVieweeDashboardnavigation ul li:hover,.active{
+    background-color:var(--text-Color);
+    color:var(--background-Color);
+    height: 8vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: 0.4s all ease;
+    /* border-radius: 50px 0 50px 50px;  */
+ }
+/* CSS for the card container */
+.cardContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start;
+  }
+  

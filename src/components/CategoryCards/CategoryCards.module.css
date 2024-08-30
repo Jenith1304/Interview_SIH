@@ -1,0 +1,30 @@
+/* Colors used */
+
+:root{
+    --text-Color:whitesmoke;
+    
+    --background-Color:#5162ce;
+}
+
+
+.categoryContainer{
+    height:150px;
+    width:150px;
+    background-color: var(--text-Color);
+    color: var(--background-Color);
+    border-radius: 10px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    position: relative;
+}
+
+.notificationIcon {
+    position: absolute; /* Position relative to categoryContainer */
+    top:-10px; /* Adjust distance from top */
+    right:-14px; /* Adjust distance from left */
+    font-size: 30px; /* Adjust icon size */
+    color:red; /* Adjust icon color */
+  }

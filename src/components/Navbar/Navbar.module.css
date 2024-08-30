@@ -1,0 +1,67 @@
+/* Colors used */
+:root{
+    --text-Color:whitesmoke;
+    
+    --background-Color:#5162ce;
+}
+
+
+.navContainer
+{
+    /* background-color: #5162ce; */
+    width:100%;
+    height:8vh;
+    color:var(--text-Color);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navLogo
+{
+    display: flex;
+    align-items: center;    
+    margin-left: 5.208vw; 
+    margin-right: 1vw;
+
+}
+.navLogo img{
+    height: 65px;
+    width: 60px;
+
+}
+.navList ul{
+    display: flex;
+    list-style: none;
+    gap:1vw;
+}
+.navList ul li{
+    display: flex;
+   align-items: center;
+    transition: 0.4s all ease;
+    padding: 1vw;
+}
+.navList ul li:hover,.active{
+   background-color:var(--text-Color);
+   color:var(--background-Color);
+   height: 8vh;
+   display: flex;
+   align-items: center;
+   transition: 0.3s all ease;
+   border-radius: 50px 0 50px 50px; 
+} 
+.navList{
+    margin-right: 1vw;
+    margin-left: 1vw;
+}
+.navLogin button
+{
+    background-color: var(--text-Color);
+    border:none;
+    border-radius:15px;
+    font-size: 20px;
+    color: var(--background-Color);
+    margin-right: 5.208vw;
+    margin-left: 1vw;
+    height: 25px;
+    width: 60px;
+}

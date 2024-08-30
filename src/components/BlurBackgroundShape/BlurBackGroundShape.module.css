@@ -1,0 +1,63 @@
+.blurry_background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    z-index: -1; /* Ensure it stays behind other content */
+}
+
+/* Style for the bottom-right blurry shape */
+.blurry_shape_bottom_right {
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    background-color: white; /* Set the shape color to white */
+    filter: blur(100px); /* Apply blur effect */
+    border-radius: 50%;
+    bottom: -50px; /* Position it slightly out of the bottom */
+    right: -50px; /* Position it slightly out of the right */
+    opacity: 0.8; /* Adjust opacity for a subtle effect */
+    animation: moveBottomRight 15s infinite alternate ease-in-out; /* Add movement animation */
+}
+
+/* Style for the top-left blurry shape */
+.blurry_shape_top_left {
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    background-color: white; /* Set the shape color to white */
+    filter: blur(100px); /* Apply blur effect */
+    border-radius: 50%;
+    top: -50px; /* Position it slightly out of the top */
+    left: -50px; /* Position it slightly out of the left */
+    opacity: 0.6; /* Adjust opacity for a subtle effect */
+    animation: moveTopLeft 12s infinite alternate ease-in-out; /* Add movement animation */
+}
+
+/* Animation for bottom-right shape */
+@keyframes moveBottomRight {
+    0% {
+        transform: translate(0, 0);
+    }
+    50% {
+        transform: translate(-10px, 10px);
+    }
+    100% {
+        transform: translate(0, 0);
+    }
+}
+
+/* Animation for top-left shape */
+@keyframes moveTopLeft {
+    0% {
+        transform: translate(0, 0);
+    }
+    50% {
+        transform: translate(10px, -10px);
+    }
+    100% {
+        transform: translate(0, 0);
+    }
+}

@@ -1,0 +1,23 @@
+
+/* Colors used */
+:root{
+    --text-Color:whitesmoke;
+    
+    --background-Color:#5162ce;
+}
+
+.footer {
+    position: relative;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 2rem;
+    background:var(--text-Color);
+    color:var(--background-Color);
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.2rem;
+    /* height:5vh; */
+  }
