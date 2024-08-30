@@ -10,6 +10,9 @@ git clone {the link ypu copied}
 5.After the project is cloned,cd to created folder
 6.then type git branch,this will show all branches and also the branch you are currently working
 7.git checkout {your name},Now you are on your branch 
+8.npm install,to install node modules,
+9.npm i react-icons,to install react icons pakage
+10.npm run dev, to run on server
 8.Happy CODING :) !!!
 
 
